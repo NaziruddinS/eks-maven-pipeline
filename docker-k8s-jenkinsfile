@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'production', url: 'https://github.com/vinothkumarselvaarasan/kubernet_docker_jenkins.git'
+                git branch: 'production', url: 'https://github.com/VinothkumarSelvaarasan/kubernet_docker_jenkins.git'
             }
         }
         stage('Maven Build') {
