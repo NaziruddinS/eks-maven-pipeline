@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    
+    z
     tools{
-        maven "Maven_399"
+        maven "Maven-3.9.9"
     }
 
     stages {
