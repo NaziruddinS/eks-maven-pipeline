@@ -21,10 +21,5 @@ pipeline {
                 sh 'docker build -t vinothkumarselvaarasan/mavenwebapp .'
             }
         }
-        stage('k8s deployment') {
-            steps {
-                sh 'kubectl apply -f k8s-deploy.yml'
-            }
-        }
     }
 }
